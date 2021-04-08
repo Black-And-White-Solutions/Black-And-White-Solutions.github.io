@@ -33,8 +33,15 @@
         box-sizing: border-box
       }
       body {
-        background-color: black;
-        
+        background-color: black;  
+      }
+      #titulo, #parrafo {
+        color: white;
+      }
+      #boton {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
       }
     </style>
     
@@ -54,7 +61,32 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b6b1420091.js" crossorigin="anonymous"></script>  
+    <script>
+        $(window).scroll(function(event) {
+          var scrollLeft = $(window).scrollLeft();
+          var scrollTop = $(window).scrollTop();
+        
+          if(scrollTop > 77.17){
+            document.getElementById('seccion').style.backgroundColor='#fff';
+            document.getElementById('titulo').style.color ='#000';
+            document.getElementById('parrafo').style.color ='#000';
+            document.getElementsById('boton').style.backgroundColor = '#000';
+            document.getElementsById('boton').style.color ='#fff';  
+          }
+
+        if(scrollTop <= 77.17){
+          document.getElementById('seccion').style.backgroundColor='#000';
+            document.getElementById('titulo').style.color ='#fff';
+            document.getElementById('parrafo').style.color ='#fff';
+            document.getElementsById('boton').style.backgroundColor = '#fff';
+            document.getElementsById('boton').style.color ='#000';
+          }
+
+        });
+    </script>
 </html>

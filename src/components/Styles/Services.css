@@ -9,14 +9,13 @@
     color: rgb(255, 255, 255);
     font-size: 38px;
     font-family: 'Rufina', sans-serif;
-    margin: 60px 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 h3 {
-    color: white;
     font-family: 'Rufina', sans-serif;
-    font-size: 24px;
-    margin: 3px 0;
+    font-size: 28px
 }
 
 .service-box {
@@ -31,11 +30,6 @@ h3 {
     background-color: white;
 }
 
-.service-box p {
-    margin-top: 10px;
-    text-align: start;
-    font-family: 'Rufina', sans-serif;
-}
 
 #box-white{
     color: rgb(0, 0, 0);

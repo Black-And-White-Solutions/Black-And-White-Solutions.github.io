@@ -4,7 +4,7 @@ import './Styles/Navbar.css'
 const Navbar = () => {
     return (
         <Fragment>
-            <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+            <nav className="navbar navbar-expand-lg navbar-light sticky-top">
               <div className="container">
                 <a className="navbar-brand logo" href="/#">B&W</a>
                 <button className="navbar-toggler"

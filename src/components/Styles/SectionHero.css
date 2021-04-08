@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+div .home__hero-section {
+    width: 1440px;
+    height: 700px;
+}
+
+.home__hero-row {
+    margin-top: 80px;
+}
+
+.home__hero-text-wrapper {
+    position: relative;
+    width: 540px;
+    height: 620px;
+    left: 180px;
+    top: 110px;
+
+}
+.home__hero-text-wrapper .heading, .home__hero-subtitle {
+    text-align: start;
+}
+.home__hero-subtitle {
+    margin: 40px 0;
+}
+
+
+.home__hero-img-wrapper {
+    position: absolute;
+    margin-left: 40px;
+    left: 762px;
+    top: 150px;
+}
+
+.home__hero-text-wrapper .btn {
+    border-radius: 10px;
+    width:180px;
+    height: 55px;
+    background-color: white;
+    color: black;
+    font-family: 'Rufina', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home__hero-text-wrapper .btn:hover {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    color: white;
+    transition: 0.4s;
+}
+
+.home__hero-img-wrapper img {
+    width: 388px;
+    height: 509px;
+ 
+}
+
+.heading, .home__hero-subtitle {
+    color: white;
+}

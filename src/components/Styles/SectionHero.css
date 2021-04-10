@@ -9,7 +9,7 @@
   .row .col-md-7 {
       padding: 22vmin 1vmin;
       padding-bottom: 35vmin;
-     
+
   }
 
   .row .col-md-5 img {
@@ -22,6 +22,7 @@
     font-weight: lighter;
     font-size: 8.5vmin;
     padding: 0.1em 0em;
+    text-align: start;
 
   }
 
@@ -29,6 +30,7 @@
     font-family: 'Rufina', sans-serif;
     color: white;
     padding: 1vmin  5vmin;
+    text-align: start;
    
   }
 
@@ -45,7 +47,24 @@
     color: rgb(255, 255, 255);
     border: 2px solid white;
   }
+/*  Background SectionHero*/
 
-
-
-  
+  .colorChange {
+    background-color: white;
+  }
+  .colorChange p{
+    color: black;
+   }
+   .colorChange h1{
+    color: black;
+   }
+   .colorChange .btn{
+    background-color: black;
+    color: white;
+   }
+   .colorChange .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+   }
+   

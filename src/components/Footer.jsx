@@ -2,7 +2,7 @@ import React from "react";
 import iconFacebook from "../img/Facebook logo.png";
 import iconTwitter from "../img/Twitter logo.png";
 import iconLinkedIn from "../img/LinkedIn logo.png";
-import "./Footer.css";
+import "./Styles/Footer.css";
 
 const Footer = () => {
   return (

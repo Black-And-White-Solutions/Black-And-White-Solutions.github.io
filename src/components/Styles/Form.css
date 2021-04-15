@@ -1,5 +1,8 @@
-.container{
-
+.container-fluid{
+	height: 100vm;
+	background-image: url("../../img/contact\ view\ bg.jpg");
+	background-size: cover;
+	background-position: center;
 }
 .font{
 	font-family: Rufina;

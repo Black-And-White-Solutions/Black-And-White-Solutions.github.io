@@ -8,7 +8,7 @@ const Form = ({ formId }) => {
   };
 
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="mainCard">
         <div className="formMain">
           <form id={formId} onSubmit={handleSubmit} className="form">
@@ -37,7 +37,7 @@ const Form = ({ formId }) => {
               <input
                 type="tel"
                 name="telephone"
-								id="telephone"
+                id="telephone"
                 placeholder="Teléfono"
                 className="font textBox"
               />

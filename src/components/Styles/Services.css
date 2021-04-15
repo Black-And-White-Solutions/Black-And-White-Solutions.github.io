@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
 .services {
-    height: 100vh;
     background-color: rgb(0, 0, 0);
 }
 .section-header h2 {
@@ -15,7 +14,6 @@ h3 {
     font-size: 28px
 }
 .service-box {
-    height: 250px;
     margin: 10px;
     padding: 20px;
     background-color: rgb(0, 0, 0);

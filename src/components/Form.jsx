@@ -8,7 +8,7 @@ const Form = ({ formId }) => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid bg">
       <div className="mainCard">
         <div className="formMain">
           <form id={formId} onSubmit={handleSubmit} className="form">

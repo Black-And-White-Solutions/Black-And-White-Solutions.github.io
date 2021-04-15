@@ -1,5 +1,8 @@
 .container-fluid{
-	height: 100vm;
+	height: 100vh;
+}
+
+.bg{	
 	background-image: url("../../img/contact\ view\ bg.jpg");
 	background-size: cover;
 	background-position: center;

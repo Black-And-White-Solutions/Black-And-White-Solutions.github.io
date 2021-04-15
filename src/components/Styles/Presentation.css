@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
@@ -16,7 +17,7 @@
       width: 75%;
   }
 
- .col-md-7 h1{
+ .col-md-7 h1 {
     font-family: 'Rufina', sans-serif;
     color: white;  
     font-weight: lighter;
@@ -34,7 +35,7 @@
    
   }
 
-  .col-md-7 .btn{
+  .col-md-7 .btn {
     font-family: 'Rufina', sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -52,17 +53,17 @@
   .colorChange {
     background-color: white;
   }
-  .colorChange p{
+  .colorChange p {
     color: black;
    }
-   .colorChange h1{
+   .colorChange h1 {
     color: black;
    }
-   .colorChange .btn{
+   .colorChange .btn {
     background-color: black;
     color: white;
    }
-   .colorChange .btn:hover{
+   .colorChange .btn:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 2px solid black;

@@ -1,5 +1,4 @@
 .formTitle{
-	height: 48px;
 	font-family: Rufina;
 	font-style: normal;
 	font-weight: bold;
@@ -7,7 +6,7 @@
 	line-height: 59px;
 	align-items: center;
 	text-align: center;
-	color: #FFFFFF;
+	color: rgba(255, 255, 255, 1);
 	text-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -18,7 +17,7 @@
 	transform: translate(-50%, 0);
 	height: 56vh;
 	width : 80vw;
-	background: #000000;
+	background: rgba(0, 0, 0, 0);
 	box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -32,17 +31,17 @@
 
 .textBox{
 	height: 40px;
-	background: #D9D9DA;
+	background: rgba(217.0, 217.0, 218.0, 1.0);
 	display: flex;
 	align-items: center;
 	text-align: center;
-	color:#252526;
+	color:rgba(37.0, 37.0, 38.0, 1.0);
 }
 
 .bg{
 	height: 100vh;
-	background-image: url("../../img/contact\ view\ bg.jpg");
+	background-image: url("../../img/contactViewBg.jpg");
 	background-size: cover;
 	background-position: center;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 1);
 }

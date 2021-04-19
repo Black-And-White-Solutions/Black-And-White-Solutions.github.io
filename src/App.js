@@ -1,8 +1,8 @@
 import './App.css';
-import Form from './components/Form';
-import Navbar from './components/Navbar.jsx';
-import Presentation from './components/Presentation.jsx';
+import About from './components/About';
 import Services from './components/Services.jsx';
+import Presentation from './components/Presentation.jsx';
+import Navbar from './components/Navbar.jsx';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Presentation />
       <Services />
-      <Form />
+      <About />
    </div>
   );
 }

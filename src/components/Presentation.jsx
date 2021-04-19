@@ -1,23 +1,17 @@
-import React, { useState, Fragment } from 'react'
+import React, { useState } from 'react'
 import './Styles/Presentation.css'
 import  phone_showcase  from '../img/phone showcase.png';
 
-
 const Presentation = () => {
-    const [colorChange, setColorchange] = useState(false);  
-    const changeSectionColor = () =>{
-       if(window.scrollY >= 30){
-         setColorchange(true);
-       }
-       else{
-         setColorchange(false);
-       }
-    }
-     window.addEventListener('scroll', changeSectionColor);
+    const [ColorChange, setColorChange] = useState(false);  
+    const navbarSize = 50;
+    window.addEventListener('scroll', () => {
+	    setColorChange(window.scrollY > navbarSize)
+    });
 
     return (
-      <Fragment>
-        <div className = {colorChange ? 'section colorChange' : 'section'}>
+      <>
+        <div className = { ColorChange ? 'section ColorChange': 'section' }>
           <div className="container-fluid">
             <div className="row mt-2" >
               <div className="col-md-7 col-sm-12">
@@ -26,12 +20,12 @@ const Presentation = () => {
                 <button type="button" className ="btn btn-primary mt-3">Contactanos</button>
               </div>                  
               <div className="col-md-5 col-sm-12 h-2">
-               <img src={ phone_showcase } alt=""/>
+                <img src={ phone_showcase } alt=""/>
               </div>
             </div>
           </div>
         </div> 
-      </Fragment>
+      </>
     )
 }
 

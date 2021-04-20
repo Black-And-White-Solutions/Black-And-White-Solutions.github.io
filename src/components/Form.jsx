@@ -1,5 +1,5 @@
 import React, { UseState } from "react";
-import "./Styles/Form.css";
+import "./styles/Form.css";
 
 const Form = ({ formId }) => {
   const handleSubmit = (e) => {
@@ -9,8 +9,9 @@ const Form = ({ formId }) => {
 
   return (
     <div className="container-fluid bg">
-      <div className="container row mainCard">
-        <h1 className="row h-9 formTitle">Contacta con nosotros</h1>
+      <div className="container mainCard">
+        <header className="formTitle">Contacta con nosotros</header>
+        <img src="../img/contactCard.png" alt="contactUs" className="bout" />
         <div className="row">
           <div className="col-sm formText">GG</div>
           <div className="col-sm formMain">

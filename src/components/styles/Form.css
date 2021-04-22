@@ -1,21 +1,39 @@
 .formTitle{
-	padding-top: 1.5%;
 	font-family: Rufina;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 48px;
-	line-height: 59px;
-	align-items: center;
-	text-align: center;
 	color: rgba(255, 255, 255, 1);
 	text-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.formText{
+	font-family: Rufina;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 18px;
+	color: rgba(255, 255, 255, 1);
+	text-align: justify;
+}
+
+.formBigText{
+	font-family: Rufina;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 44px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.contactIcon{
+	width: auto;
+	height: 60px;
 }
 
 .mainCard{
 	position: relative;
 	top: 15vh;
-	left: 50%;
-	transform: translate(-50%, 0);
 	height: 56vh;
 	width : 80vw;
 	background: rgba(0, 0, 0, 1);
@@ -45,4 +63,18 @@
 	background-size: cover;
 	background-position: center;
 	background-color: rgba(255, 255, 255, 1);
+}
+
+.buttonForm{
+	background: rgba(0, 0, 0, 1);
+	box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	font-family: Rufina;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	align-items: center;
+	text-align: center;
+
 }

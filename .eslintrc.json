@@ -19,6 +19,7 @@
   },
   "plugins": ["react", "jsx-a11y"],
   "rules": {
+    "no-console": "off",
     "react-hooks/exhaustive-deps": "error",
     "no-var": "error",
     "brace-style": "error",

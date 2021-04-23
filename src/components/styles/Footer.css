@@ -1,50 +1,36 @@
-.footerBar{	
-	width: 100%;
-	height: 120px;
-	left: 0;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 1);
-	color: rgba(255, 255, 255, 1);
+.footerBar {
+  height: 120px;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
-.footerText{
-	position: absolute;
-	left: 40px;
-	top: 40px;
-	transform: translate(0,-50%);
-	font-family: Rufina;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 30px;
+.footerText {
+  font-family: Rufina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: left;
 }
 
-.footerSocial{
-	position: absolute;
-	width: 160px;
-	height: 40px;
-	right: 48px;
-	top: 50%;
-	transform: translate(0,-50%);
+.footerSocial {
 }
 
-.icon{
-	position: absolute;
-	width: 40px;
-	height: 40px;
+.icon {
+  width: 40px;
+  height: 40px;
 }
 
-.leftIcon{
-	left: 0px;
-	top: 0px;
+.leftIcon {
+  left: 0px;
+  top: 0px;
 }
 
-.centerIcon{
-	left: 60px;
-	top: 0px;
+.centerIcon {
+  left: 60px;
+  top: 0px;
 }
 
-.rightIcon{
-	left: 120px;
-	top: 0px;
+.rightIcon {
+  left: 120px;
+  top: 0px;
 }

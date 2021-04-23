@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import "./styles/Navbar.css";
+import React, { Fragment } from 'react';
+import './styles/Navbar.css';
 
 const Navbar = () => {
   return (
@@ -16,8 +16,7 @@ const Navbar = () => {
             data-bs-target="#navbarText"
             aria-controls="navbarText"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
@@ -49,4 +48,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

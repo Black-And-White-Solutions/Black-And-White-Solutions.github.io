@@ -1,80 +1,79 @@
-.formTitle{
-	font-family: Rufina;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 48px;
-	color: rgba(255, 255, 255, 1);
-	text-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
+.formTitle {
+  font-family: Rufina;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
-.formText{
-	font-family: Rufina;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 18px;
-	color: rgba(255, 255, 255, 1);
-	text-align: justify;
+.formText {
+  font-family: Rufina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-align: justify;
 }
 
-.formBigText{
-	font-family: Rufina;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	line-height: 44px;
-	color: rgba(255, 255, 255, 1);
+.formBigText {
+  font-family: Rufina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 44px;
+  color: rgba(255, 255, 255, 1);
 }
 
-.contactIcon{
-	width: auto;
-	height: 60px;
+.contactIcon {
+  width: auto;
+  height: 60px;
 }
 
-.mainCard{
-	position: relative;
-	top: 15vh;
-	height: 56vh;
-	width : 80vw;
-	background: rgba(0, 0, 0, 1);
-	box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
+.mainCard {
+  position: relative;
+  top: 15vh;
+  height: 56vh;
+  width: 80vw;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
-.font{
-	font-family: Rufina;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 30px;
+.font {
+  font-family: Rufina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
 }
 
-.textBox{
-	height: 40px;
-	background: rgba(217.0, 217.0, 218.0, 1.0);
-	display: flex;
-	align-items: center;
-	text-align: center;
-	color:rgba(37.0, 37.0, 38.0, 1.0);
+.textBox {
+  height: 40px;
+  background: rgba(217, 217, 218, 1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(37, 37, 38, 1);
 }
 
-.bg{
-	height: 100vh;
-	background-image: url("../../img/contactViewBg.jpg");
-	background-size: cover;
-	background-position: center;
-	background-color: rgba(255, 255, 255, 1);
+.bg {
+  height: 100vh;
+  background-image: url("../../img/contactViewBg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 1);
 }
 
-.buttonForm{
-	background: rgba(0, 0, 0, 1);
-	box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
-	border-radius: 5px;
-	font-family: Rufina;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 30px;
-	align-items: center;
-	text-align: center;
-
+.buttonForm {
+  background: rgba(0, 0, 0, 1);
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: Rufina;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
 }

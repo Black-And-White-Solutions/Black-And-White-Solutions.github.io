@@ -4,9 +4,8 @@ import  phone_showcase  from '../img/phoneShowcase.png';
 
 const Presentation = () => {
     const [ColorChange, setColorChange] = useState(false);  
-    const navbarSize = 50;
     window.addEventListener('scroll', () => {
-	    setColorChange(window.scrollY > navbarSize)
+	    setColorChange(window.scrollY > 0)
     });
 
     return (
@@ -29,4 +28,4 @@ const Presentation = () => {
     )
 }
 
-export default Presentation
+export default Presentation;

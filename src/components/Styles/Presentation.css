@@ -1,77 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rufina&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
-
-presentation {
-  background-color: rgb(0, 0, 0);
-}
-.row .gy-3 .p-b-5 {
-  height: 100vh;
+/*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+.container-fluid {
+  background-color: black;
 }
 .row .col-md-5 {
   padding: 4.2vmin 1vmin;
 }
-
 .row .col-md-7 {
   padding: 10vmin 1vmin;
   padding-bottom: 30vmin;
 }
-
 .row .col-md-5 img {
   width: 75%;
 }
 
 .col-md-7 h1 {
-  font-family: 'Rufina', sans-serif;
-  color: rgb(255, 255, 255);  
+  font-family: "Rufina", sans-serif;
+  color: white;
   font-weight: lighter;
   font-size: 8.5vmin;
-  padding: 1vmin  5vmin;
+  padding: 1vmin 5vmin;
   text-align: start;
 }
-
 .col-md-7 p {
-  font-family: 'Rufina', sans-serif;
-  color: rgb(255, 255, 255);
-  padding: 1vmin  5vmin;
+  font-family: "Rufina", sans-serif;
+  color: white;
+  padding: 1vmin 5vmin;
   text-align: start;
 }
-
 .col-md-7 .btn {
-  font-family: 'Rufina', sans-serif;
+  font-family: "Rufina", sans-serif;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border: none;
-  padding: 2vmin  5vmin;
+  padding: 2vmin 5vmin;
 }
-
 .col-md-7 .btn:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   border: 2px solid white;
 }
-
-
-.ColorChange .container-fluid{
-  background-color: rgb(255, 255, 255);
-  transition: 0.8s;
+/*  Background SectionHero*/
+.colorChange .container-fluid {
+  background-color: white;
 }
-
-.ColorChange p {
-  color: rgb(0, 0, 0);
+.colorChange p {
+  color: black;
 }
-
-.ColorChange h1 {
-  color: rgb(0, 0, 0);
+.colorChange h1 {
+  color: black;
 }
-
-.ColorChange .btn {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+.colorChange .btn {
+  background-color: black;
+  color: white;
 }
-
-.ColorChange .btn:hover {
+.colorChange .btn:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid black;
 }
-   

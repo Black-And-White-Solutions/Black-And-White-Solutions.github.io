@@ -14,7 +14,7 @@
     font-weight:bold;
     color:inherit;
     font-family: 'Rufina', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width:767px) {

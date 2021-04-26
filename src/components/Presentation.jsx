@@ -12,7 +12,7 @@ const Presentation = () => {
     return (
         <>
           <div className = { ColorChange ? 'section ColorChange': 'section' }>
-            <div className="container-fluid">
+            <div className="container-fluid presentation">
               <div className="row mt-2" >
                 <div className="col-md-7 col-sm-12">
                   <h1>Confíanos tus ideas y nosotros desarrollamos la solución</h1>

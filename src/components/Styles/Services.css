@@ -11,9 +11,9 @@
   margin: 30px 0;
 }
 
-h3 {
+.serviceCardTitle {
   font-family: 'Rufina', sans-serif;
-  font-size: 28px
+  font-size: 28px;
 }
 
 .service-box {
@@ -29,7 +29,7 @@ h3 {
   background-color: rgb(255, 255, 255);
 }
 
-#title-white {
+.title-white {
   color: rgb(0, 0, 0);
 }
 

@@ -1,65 +1,56 @@
 import React from 'react'
-import './Styles/About.css'
+import './Styles/About.css' 
 
 const About = () => {
 
     return (
-        <>
-            <div className="container">
+        <>  <div className="container-fluid About">
                 <header className="section-header pt-5">
-                    <h2>Nosotros</h2>
+                    <h2>Proceso</h2>
                 </header>
-                <div className="timeline">
-                    <div className="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
-                        <div className="col-10 col-md-5 order-3 order-md-1 timeline-content">
-                            <h3 className=" text-light text-center">Historia</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis dignissimos porro.</p>
-                        </div>
-                        <div className="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="img/img13.png" className="img-fluid" alt="img"/>
-                        </div>
-                        <div className="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>2021-04-19</time>
+                <div className="container timeline mb-5">
+                    <div className="containerl containerl-left">
+                        <div className="image box-white"><h1 className="text-center pt-3 text-white">1</h1></div>
+                        <div className="content black-box">
+                            <span>July 2020</span>
+                            <h3 className="text-center"><i className="fas fa-users me-3"></i>Envio de solicitud</h3>
+                            <p  className="text-center">
+                                Et hinc magna voluptatum usu, cum veniam graece et. Ius ea scripserit temporibus, pri cu harum tacimates neglegentur. At adipisci incorrupte nam. Cu qui sumo appareat constituto.
+                            </p>
                         </div>
                     </div>
-                    <div className="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
-                        <div className="col-10 col-md-5 order-3 order-md-1 timeline-content">
-                            <h3 className="text-light text-center">Vision</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis dignissimos porro.</p>
-                        </div>
-                        <div className="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="img/img13.png" className="img-fluid" alt="img"/>
-                        </div>
-                        <div className="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>2021-04-19</time>
+                    <div className="containerl containerl-right">
+                        <div className="image bg-white"><h1 className="text-center pt-3">2</h1></div>
+                        <div className="content">
+                            <span>March 2019</span>
+                            <h3 className="text-center"><i className="fas fa-users me-3"></i>Envio de solicitud</h3>
+                            <p  className="text-center">
+                                Et hinc magna voluptatum usu, cum veniam graece et. Ius ea scripserit temporibus, pri cu harum tacimates neglegentur. At adipisci incorrupte nam. Cu qui sumo appareat constituto.
+                            </p>
                         </div>
                     </div>
-                    <div className="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
-                        <div className="col-10 col-md-5 order-3 order-md-1 timeline-content">
-                            <h3 className=" text-light text-center">Valores</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis dignissimos porro.</p>
-                        </div>
-                        <div className="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="img/img13.png" className="img-fluid" alt="img"/>
-                        </div>
-                        <div className="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>2021-04-19</time>
+                    <div className="containerl containerl-left">
+                        <div className="image"><h1 className="text-center pt-3 text-white">3</h1></div>
+                        <div className="content black-box">
+                            <span>June 2018</span>
+                            <h3 className="text-center"><i className="fas fa-users me-3"></i>Envio de solicitud</h3>
+                            <p className="text-center">
+                                Et hinc magna voluptatum usu, cum veniam graece et. Ius ea scripserit temporibus, pri cu harum tacimates neglegentur. At adipisci incorrupte nam. Cu qui sumo appareat constituto.
+                            </p>
                         </div>
                     </div>
-                    <div className="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
-                        <div className="col-10 col-md-5 order-3 order-md-1 timeline-content">
-                            <h3 className=" text-light text-center">Mision</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis dignissimos porro.</p>
-                        </div>
-                        <div className="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                            <img src="img/img13.png" className="img-fluid" alt="img"/>
-                        </div>
-                        <div className="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-                            <time>2021-04-19</time>
+                    <div className="containerl containerl-right">
+                        <div className="image bg-white"><h1 className="text-center pt-3">4</h1></div>
+                        <div className="content">
+                            <span>March 2019</span>
+                            <h3 className="text-center"><i className="fas fa-users me-3"></i>Envio de solicitud</h3>
+                            <p className="text-center">
+                                Et hinc magna voluptatum usu, cum veniam graece et. Ius ea scripserit temporibus, pri cu harum tacimates neglegentur. At adipisci incorrupte nam. Cu qui sumo appareat constituto.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </>
     )
 }

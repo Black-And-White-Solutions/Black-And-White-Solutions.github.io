@@ -2,18 +2,12 @@ import React, { useState, Fragment } from 'react'
 import './Styles/Presentation.css'
 import  phone_showcase  from '../img/phone showcase.png';
 
-
 const Presentation = () => {
-    const [colorChange, setColorchange] = useState(false);  
-    const changeSectionColor = () =>{
-       if(window.scrollY >= 30){
-         setColorchange(true);
-       }
-       else{
-         setColorchange(false);
-       }
-    }
-     window.addEventListener('scroll', changeSectionColor);
+    const [colorChange, setColorChange] = useState(false);
+
+	window.addEventListener('scroll', () => {
+		setColorChange(window.scrollY > 0)
+	});
 
     return (
       <Fragment>

@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rufina&display=swap");
+
 .services {
   background-color: rgb(0, 0, 0);
+  margin-bottom: 2rem;
 }
+
 .section-header h2 {
   color: rgb(255, 255, 255);
   font-size: 38px;
@@ -9,23 +12,33 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
 h3 {
   font-family: "Rufina", sans-serif;
   font-size: 28px;
 }
+
 .service-box {
   margin: 10px;
   padding: 20px;
+  border-radius: 5px;
   background-color: rgb(0, 0, 0);
-  color: white;
+  color: rgb(255, 255, 255);
 }
-.boxwhite {
+
+.service-box-white {
   color: rgb(0, 0, 0);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
-#title-white {
+
+.cardTitleWhite {
+  color: rgb(255, 255, 255);
+}
+
+.cardTitleBlack {
   color: rgb(0, 0, 0);
 }
-i {
+
+.icon-services {
   font-size: 30px;
 }

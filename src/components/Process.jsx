@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/Proceso.css' 
+import './Styles/Process.css' 
 
 const Proceso = () => {
 

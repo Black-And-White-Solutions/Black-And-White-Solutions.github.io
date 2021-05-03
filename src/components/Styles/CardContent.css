@@ -1,0 +1,13 @@
+.font {
+  font-size: 1rem;
+  font-family: 'Rufina', sans-serif;
+  overflow-wrap: break-word;
+}
+
+.cardTitle {
+  font-size: 1.75rem;
+}
+
+.cardIcon {
+  font-size: 1.875rem;
+}

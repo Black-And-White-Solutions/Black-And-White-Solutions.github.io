@@ -1,0 +1,15 @@
+.serviceCard {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.white {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.black {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}

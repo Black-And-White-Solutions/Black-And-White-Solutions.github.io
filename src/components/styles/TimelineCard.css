@@ -1,0 +1,88 @@
+.card {
+  padding: 1.875rem;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 0px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.black {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.left {
+  margin-right: 50px;
+}
+
+.right {
+  margin-left: 50px;
+}
+
+.numberBox {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  margin-top: 4rem;
+}
+
+.timelineCard {
+  position: relative;
+  width: 50%;
+  min-height: 120px;
+}
+
+.cardPosition-left {
+  left: 0;
+  padding-right: 70px;
+  text-align: right;
+}
+
+.cardPosition-right {
+  left: 50%;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.cardPosition-right .card::before {
+  right: -50px;
+  border-width: 100px 0 100px 50px;
+  border-color: transparent transparent transparent rgb(0, 0, 0);
+  top: -1px;
+}
+
+.cardPosition-left .card::before {
+  left: -50px;
+  border-width: 100px 50px 100px 0;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
+  top: -1px;
+}
+
+.cardPosition-left .numberBox {
+  right: 0;
+  margin-right: -2rem;
+}
+
+.cardPosition-right .numberBox {
+  left: 0;
+  margin-left: -2.5rem;
+}
+
+.card span {
+  color: rgb(161, 161, 161);
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.card p {
+  line-height: 1.6;
+  padding-top: 5px;
+}

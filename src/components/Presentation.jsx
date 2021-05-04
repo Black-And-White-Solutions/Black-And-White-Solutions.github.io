@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import './styles/Presentation.css';
 import phoneShowcase from '../img/phoneShowcase.png';
 
@@ -9,9 +9,9 @@ const Presentation = () => {
   });
 
   return (
-    <Fragment>
+    <>
       <div className={colorChange ? 'section colorChange' : 'section'}>
-        <div className="container-fluid">
+        <div className="container-fluid presentation">
           <div className="row mt-2">
             <div className="col-md-7 col-sm-12">
               <h1>Confíanos tus ideas y nosotros desarrollamos la solución</h1>
@@ -30,7 +30,7 @@ const Presentation = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </>
   );
 };
 

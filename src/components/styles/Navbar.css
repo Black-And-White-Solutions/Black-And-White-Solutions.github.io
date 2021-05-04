@@ -1,21 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Rufina&display=swap");
 .navbar {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  padding: 0;
 }
+
 .navbar-brand {
-  color: white !important;
-  font-size: 30px;
-  font-family: "Rufina", sans-serif;
-  text-transform: uppercase;
+  padding: 0;
 }
+
+.navbar-brand img {
+  width: 65px;
+}
+
 .nav-item {
   margin: 0 27px;
 }
+
 .nav-link {
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 15px;
   font-family: "Rufina", sans-serif;
 }
+
 .nav-link:hover {
   color: rgb(100, 100, 100) !important;
   transition: 0.3s;
@@ -26,8 +32,9 @@
 }
 
 .line {
-  border-left: white 2.6px solid;
+  border-left: rgb(255, 255, 255) 2.6px solid;
 }
+
 @media screen and (max-width: 992px) {
   .navbar-nav {
     display: flex;

@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './styles/Form.css';
 import contactCard from '../img/contactCard.png';
 
-const Form = ({ formId }) => {
+const Form = () => {
   const handleSubmit = e => {
     e.preventDefault();
     alert('Button pressed');
@@ -44,7 +43,7 @@ const Form = ({ formId }) => {
             </p>
           </div>
           <div className="col align-items-center me-3 formMain">
-            <form id={formId} onSubmit={handleSubmit} className="form">
+            <form id="form" onSubmit={handleSubmit} className="form">
               <div className="col mb-4 form-group">
                 <input
                   type="text"

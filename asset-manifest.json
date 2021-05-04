@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.17d54727.chunk.js",
-    "main.js.map": "/static/js/main.17d54727.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7ee99064.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7ee99064.js.map",
-    "static/js/2.8cef6dff.chunk.js": "/static/js/2.8cef6dff.chunk.js",
-    "static/js/2.8cef6dff.chunk.js.map": "/static/js/2.8cef6dff.chunk.js.map",
-    "static/js/3.249baacd.chunk.js": "/static/js/3.249baacd.chunk.js",
-    "static/js/3.249baacd.chunk.js.map": "/static/js/3.249baacd.chunk.js.map",
+    "main.css": "/static/css/main.07a166d2.chunk.css",
+    "main.js": "/static/js/main.368b4402.chunk.js",
+    "main.js.map": "/static/js/main.368b4402.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c1c6fa5d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c1c6fa5d.js.map",
+    "static/js/2.f91857f4.chunk.js": "/static/js/2.f91857f4.chunk.js",
+    "static/js/2.f91857f4.chunk.js.map": "/static/js/2.f91857f4.chunk.js.map",
+    "static/js/3.c0b55642.chunk.js": "/static/js/3.c0b55642.chunk.js",
+    "static/js/3.c0b55642.chunk.js.map": "/static/js/3.c0b55642.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.8cef6dff.chunk.js.LICENSE.txt": "/static/js/2.8cef6dff.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/main.07a166d2.chunk.css.map": "/static/css/main.07a166d2.chunk.css.map",
+    "static/js/2.f91857f4.chunk.js.LICENSE.txt": "/static/js/2.f91857f4.chunk.js.LICENSE.txt",
+    "static/media/Form.css": "/static/media/contactViewBg.f91336df.jpg",
+    "static/media/personCuatro.b7cdd0fd.png": "/static/media/personCuatro.b7cdd0fd.png",
+    "static/media/personDos.d4eb69e5.png": "/static/media/personDos.d4eb69e5.png",
+    "static/media/personTres.0dd4549d.png": "/static/media/personTres.0dd4549d.png",
+    "static/media/personUno.6d89317a.png": "/static/media/personUno.6d89317a.png",
+    "static/media/phoneShowcase.fffce17a.png": "/static/media/phoneShowcase.fffce17a.png",
+    "static/media/Process.css": "/static/media/servicesViewBg.5685b41f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ee99064.js",
-    "static/js/2.8cef6dff.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.17d54727.chunk.js"
+    "static/js/runtime-main.c1c6fa5d.js",
+    "static/js/2.f91857f4.chunk.js",
+    "static/css/main.07a166d2.chunk.css",
+    "static/js/main.368b4402.chunk.js"
   ]
 }

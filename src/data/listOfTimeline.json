@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Al momento de contactar con nosotros, te responderemos la solicitud de contacto por tu medio de preferencia.",
+    "iconCSS": "fas fa-users",
+    "title": "Envio de solicitud"
+  },
+
+  {
+    "content": "Podremos ponernos de acuerdo para realizar una llamada y firmar un acuerdo de confidencialidad, en dicha llamada, podremos conversar con mas detalle sobre el producto deseado.",
+    "iconCSS": "fas fa-users",
+    "title": "Meeting de presentación"
+  },
+  {
+    "content": "Acordaremos las condiciones para un MVP y procederemos a realizar nuestra propuesta para empezar el desarrollo del proyecto.",
+    "iconCSS": "fas fa-users",
+    "title": "Planificación del MVP"
+  },
+  {
+    "content": "Nuestros principios nos llevan a adoptar metodologías ágiles, por lo que la idea será iterar sobre el MVP para ir recibiendo feedback del proyecto sobre la marcha.",
+    "iconCSS": "fas fa-users",
+    "title": "Desarrollo del MVP"
+  },
+  {
+    "content": "Entrega de la primera fase del proyecto, a partir de aqui podra decidir si desea continuar con el resto del proyecto o dar una opinion mas general sobre el proceso en cuestion.",
+    "iconCSS": "fas fa-users",
+    "title": "Culminación del MVP"
+  },
+  {
+    "content": "La fase mas larga del proceso, aqui repetiremos el constante ciclo de feedback y nos encargaremos de desarrollar un producto a la medida de sus espectativas.",
+    "iconCSS": "fas fa-users",
+    "title": "Desarrollo del producto final"
+  },
+  {
+    "content": "Una vez finalizado el proyecto, podremos acordar mantenimiento constante sobre la obra realizada, e idear un plan de soporte que se adapte a sus espectativas.",
+    "iconCSS": "fas fa-users",
+    "title": "Culminación del proyecto"
+  }
+]

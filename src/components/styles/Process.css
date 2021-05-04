@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+.About {
+  background-image: url('../../img/servicesViewBg.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 1);
+  padding-bottom: 40px;
+}
+
+.aboutTitle {
+  font-family: 'Rufina', sans-serif;
+  font-size: 28px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: rgb(255, 255, 255);
+  top: 6rem;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.containerAbout {
+  position: relative;
+  width: 50%;
+  min-height: 120px;
+}
+
+.containerAbout-left {
+  left: 0;
+  padding-right: 70px;
+  text-align: right;
+}
+
+.containerAbout-right {
+  left: 50%;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.content {
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 0px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.black-box {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-right: 50px;
+}
+
+.white-box {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+}
+
+.containerAbout .content::before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  top: 35px;
+  width: 0;
+  z-index: 1;
+  border: medium solid rgb(255, 255, 255);
+}
+
+.containerAbout-left .content::before {
+  right: -50px;
+  border-width: 100px 0 100px 50px;
+  border-color: transparent transparent transparent rgb(0, 0, 0);
+  top: -1px;
+}
+
+.containerAbout-right .content::before {
+  left: -50px;
+  border-width: 100px 50px 100px 0;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
+  top: -1px;
+}
+
+.image {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  margin-top: 4rem;
+}
+
+.containerAbout-left .image {
+  right: 0;
+  margin-right: -2rem;
+}
+
+.containerAbout-right .image {
+  left: 0;
+  margin-left: -2.5rem;
+}
+
+.content span {
+  font-family: 'Rufina', sans-serif;
+  color: rgb(161, 161, 161);
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.content p {
+  font-family: 'Rufina', sans-serif;
+  line-height: 1.6;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .timeline::after {
+    left: 65px;
+  }
+  .containerl {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 0px;
+    margin-top: 30px;
+  }
+  .containerl:first-of-type {
+    margin-top: 0px;
+  }
+  .containerl-right {
+    left: 0%;
+  }
+  .containerl-left {
+    text-align: left;
+  }
+  .containerl .image {
+    left: -10px;
+    top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .containerl-left .content::before {
+    left: -10px;
+    right: auto;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(255, 255, 255) transparent transparent;
+  }
+  .containerl .black-box::before {
+    left: 25px;
+    top: -10px;
+    border: medium solid rgb(0, 0, 0);
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent rgb(0, 0, 0) transparent;
+  }
+}
+@media screen and (max-width: 480px) {
+  .containerl {
+    padding-left: 0px;
+    padding-top: 105px;
+    z-index: 3;
+  }
+  .containerl .content::before {
+    left: 25px;
+    top: -10px;
+    border: medium solid rgb(255, 255, 255);
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+  }
+  .containerl .black-box::before {
+    left: 25px;
+    top: -10px;
+    border: medium solid rgb(0, 0, 0);
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent rgb(0, 0, 0) transparent;
+  }
+}

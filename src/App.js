@@ -5,6 +5,7 @@ import Presentation from './components/Presentation.jsx';
 import Services from './components/Services.jsx';
 import Process from './components/Process';
 import Team from './components/Team';
+import Form from './components/Form.jsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Process />
       <Team />
+      <Form />
     </div>
   );
 }

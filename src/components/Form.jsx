@@ -91,4 +91,8 @@ const Form = () => {
   );
 };
 
+Form.propTypes = {
+  formId: PropTypes.String,
+};
+
 export default Form;

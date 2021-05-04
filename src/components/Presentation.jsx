@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import './styles/Presentation.css';
-import phone_showcase from '../img/phoneShowcase.png';
+import phoneShowcase from '../img/phoneShowcase.png';
 
 const Presentation = () => {
-  const [ColorChange, setColorChange] = useState(false);
+  const [colorChange, setColorChange] = useState(false);
   window.addEventListener('scroll', () => {
     setColorChange(window.scrollY > 0);
   });
 
   return (
     <>
-      <div className={ColorChange ? 'section ColorChange' : 'section'}>
+      <div className={colorChange ? 'section colorChange' : 'section'}>
         <div className="container-fluid presentation">
           <div className="row mt-2">
             <div className="col-md-7 col-sm-12">
@@ -25,7 +25,7 @@ const Presentation = () => {
               </button>
             </div>
             <div className="col-md-5 col-sm-12 h-2">
-              <img src={phone_showcase} alt="" />
+              <img src={phoneShowcase} alt="" />
             </div>
           </div>
         </div>

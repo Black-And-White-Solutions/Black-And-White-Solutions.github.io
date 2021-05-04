@@ -9,11 +9,11 @@ const Services = () => {
     const index_is_even = index % 3 == 0;
     servicesCards.push(
       <ServicesCard
-        key={index}
         cardColor={index_is_even ? 'white' : 'black'}
         content={item.content}
         delay={item.delay}
         iconCSS={item.iconCSS}
+        key={index}
         title={item.title}
       />,
     );

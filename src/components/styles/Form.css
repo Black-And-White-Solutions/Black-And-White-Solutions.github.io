@@ -59,7 +59,7 @@
 
 .bg {
   height: 100vh;
-  background-image: url("../../img/contactViewBg.jpg");
+  background-image: url('../../img/contactViewBg.jpg');
   background-size: cover;
   background-position: center;
   background-color: rgba(255, 255, 255, 1);

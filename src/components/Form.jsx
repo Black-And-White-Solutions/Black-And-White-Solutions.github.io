@@ -1,11 +1,11 @@
-import React, { UseState } from "react";
-import "./styles/Form.css";
-import contactCard from "../img/contactCard.png";
+import React from 'react';
+import './styles/Form.css';
+import contactCard from '../img/contactCard.png';
 
-const Form = ({ formId }) => {
-  const handleSubmit = (e) => {
+const Form = () => {
+  const handleSubmit = e => {
     e.preventDefault();
-    alert("Button pressed");
+    alert('Button pressed');
   };
 
   return (
@@ -43,8 +43,8 @@ const Form = ({ formId }) => {
             </p>
           </div>
           <div className="col align-items-center me-3 formMain">
-            <form id={formId} onSubmit={handleSubmit} className="form">
-              <div class="col mb-4 form-group">
+            <form id="form" onSubmit={handleSubmit} className="form">
+              <div className="col mb-4 form-group">
                 <input
                   type="text"
                   name="name"

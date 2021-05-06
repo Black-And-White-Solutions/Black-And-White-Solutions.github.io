@@ -1,40 +1,21 @@
 import React from 'react';
-import iconFacebook from '../img/facebookLogo.png';
-import iconTwitter from '../img/twitterLogo.png';
-import iconLinkedIn from '../img/linkedInLogo.png';
+import SocialBar from './SocialBar';
+import urls from '../data/listOfFooter.json';
 import './styles/Footer.css';
 
 const Footer = () => {
   return (
     <div className="container-fluid footerBar">
       <div className="row">
-        <div className="col footerText">
+        <div className="col-md-9 footerText">
           2020 Black & White Solutions, todos los derechos reservados.
         </div>
-        <div className="col footerSocial">
-          <div className="row gx-1">
-            <a href="https://www.facebook.com/Black-And-White-Solutions-112478920935033/">
-              <img
-                className="col icon leftIcon"
-                src={iconFacebook}
-                alt="iconFacebook"
-              />
-            </a>
-            <a href="https://twitter.com/BnW_Solutions">
-              <img
-                className="col icon centerIcon"
-                src={iconTwitter}
-                alt="iconTwitter"
-              />
-            </a>
-            <a href="https://www.linkedin.com">
-              <img
-                className="col icon rightIcon"
-                src={iconLinkedIn}
-                alt="iconLinkedIn"
-              />
-            </a>
-          </div>
+        <div className="col-md-3 fontSocial">
+          <SocialBar
+            urlLinkedIn={urls.urlLinkedIn}
+            urlTwitter={urls.urlTwitter}
+            urlGithub={urls.urlGithub}
+          />
         </div>
       </div>
     </div>

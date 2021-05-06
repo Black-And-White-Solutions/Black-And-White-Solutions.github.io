@@ -1,0 +1,97 @@
+.teamCard {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 1.875rem;
+  border-radius: 0.625rem;
+  padding: 1.875rem;
+}
+
+.teamName {
+	text-align: center;
+  color: inherit;
+  font-weight: bold;
+}
+
+.teamTitleSpace{
+	height: 55px;
+	width: auto;
+}
+
+.teamTitle {
+  color: rgb(161, 161, 161);
+  letter-spacing: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.teamDescription {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	max-width: 160px;
+  border-radius: 5px;
+}
+
+.textCenter{
+	display: flex;
+  flex-direction: column;    
+	justify-content: center;
+}
+
+@media screen and (max-width: 767px){	
+	.teamTitleSpace{
+		height: 45px;
+		width: auto;
+	} 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.picture{
+		width: 80px;
+	}
+
+	.teamName{
+		font-size: 20px;
+	}
+
+	.teamTitle{
+		font-size: 9px;
+	}
+
+	.teamDescriptionSpace{
+		height: 640px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.teamDescriptionSpace{
+		height: 384px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+	.teamNameSpace{
+		margin-bottom: 12px;
+		height: 55px;
+	}
+	.teamDescriptionSpace{
+		height: 256px;
+	}
+}
+
+@media screen and (min-width: 1400px){
+	.teamNameSpace{
+		margin-bottom: 0px;
+		height: 40px;
+	}
+	.teamTitleSpace{
+		margin-bottom: 0px;
+		height: 40px;
+	}
+}

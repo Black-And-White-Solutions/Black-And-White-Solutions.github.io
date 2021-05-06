@@ -5,11 +5,6 @@
   background-color: rgb(0, 0, 0);
 }
 
-.team-boxed p {
-  color: rgb(0, 0, 0);
-  font-family: 'Rufina', sans-serif;
-}
-
 .section-header h2 {
   font-weight: bold;
   color: inherit;
@@ -28,9 +23,6 @@
   max-width: 31.25rem;
   font-size: 1rem;
   margin: 0 auto;
-}
-
-.team-boxed .intro p {
   margin-bottom: 0;
   font-family: 'Rufina', sans-serif;
 }

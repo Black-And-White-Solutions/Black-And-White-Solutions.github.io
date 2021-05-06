@@ -6,7 +6,7 @@ const CardContent = ({ iconCSS, title, content }) => {
   return (
     <>
       <h3 className="font cardTitle text-center">
-        <i className={`${iconCSS} cardIcon me-3 `}></i>
+        <i className={`${iconCSS} cardIcon me-3`}></i>
         {title}
       </h3>
       <p className="font text-center">{content}</p>

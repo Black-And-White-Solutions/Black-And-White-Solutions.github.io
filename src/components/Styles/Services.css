@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
-
 .services {
-  background-color: rgb(0, 0, 0);
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  background-image: url('../../img/servicesViewBg.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 1);
+  padding-bottom: 40px;
 }
 
 .section-header h2 {

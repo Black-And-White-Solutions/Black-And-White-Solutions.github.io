@@ -1,0 +1,16 @@
+.socialBar {
+  color: rgb(161, 161, 161);
+  font-size: 18px;
+}
+
+.socialBar a {
+  margin: 0 10px;
+  color: inherit;
+  opacity: 0.7;
+  display: inline-block;
+}
+
+.socialBar a:hover {
+  transition: 1s;
+  color: rgb(0, 0, 0);
+}

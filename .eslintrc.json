@@ -26,12 +26,8 @@
     "prefer-template": "error",
     "radix": "error",
     "space-before-blocks": "error",
-<<<<<<< HEAD
     "import/prefer-default-export": "off",
     "no-use-before-define": "off"
-=======
-    "import/prefer-default-export": "off"
->>>>>>> 8794025f15922294e00d129eea469b59c498920a
   },
   "overrides": [
     {

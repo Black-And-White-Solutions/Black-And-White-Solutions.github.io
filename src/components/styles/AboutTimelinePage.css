@@ -1,0 +1,53 @@
+.About {
+  background-image: url('../../img/servicesViewBg.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 1);
+  padding-bottom: 40px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: rgb(255, 255, 255);
+  top: 5%;
+  bottom: 8%;
+  left: 50%;
+  margin-left: -3px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: rgb(255, 255, 255);
+    top: 5%;
+    bottom: 8%;
+    left: 50%;
+    margin-left: -3px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeline::after {
+    top: 6% !important;
+    bottom: 8% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timeline::after {
+    display: none;
+    padding: 0%;
+  }
+}

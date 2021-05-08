@@ -18,10 +18,12 @@
 
 .left {
   margin-right: 50px;
+  padding-left: 5px;
 }
 
 .right {
   margin-left: 50px;
+  padding-right: 5px;
 }
 
 .numberBox {
@@ -52,20 +54,6 @@
   text-align: left;
 }
 
-.cardPosition-right .card::before {
-  right: -50px;
-  border-width: 100px 0 100px 50px;
-  border-color: transparent transparent transparent rgb(0, 0, 0);
-  top: -1px;
-}
-
-.cardPosition-left .card::before {
-  left: -50px;
-  border-width: 100px 50px 100px 0;
-  border-color: transparent rgb(255, 255, 255) transparent transparent;
-  top: -1px;
-}
-
 .cardPosition-left .numberBox {
   right: 0;
   margin-right: -2rem;
@@ -85,4 +73,108 @@
 .card p {
   line-height: 1.6;
   padding-top: 5px;
+}
+
+.cardPosition-left .card {
+  clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+}
+
+.cardPosition-right .card {
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+}
+
+@media screen and (max-width: 1024px) {
+  .numberBox {
+    margin-top: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .numberBox {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timelineCard .card::before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    top: -1px;
+    width: 0;
+    z-index: 1;
+    border: medium solid rgb(255, 255, 255);
+  }
+  .timelineCard {
+    width: 100%;
+    padding-right: 0px;
+    margin-top: 30px;
+  }
+  .timelineCard:first-of-type {
+    margin-top: 0px;
+  }
+  .cardPosition-right {
+    left: 0%;
+    padding-left: 0%;
+  }
+  .cardPosition-left {
+    text-align: left;
+  }
+  .right {
+    margin-left: 0;
+  }
+  .card::before {
+    left: -10px;
+    right: auto;
+  }
+  .cardPosition-left .card {
+    clip-path: none;
+  }
+
+  .cardPosition-right .card {
+    clip-path: none;
+  }
+  .cardPosition-left .card::before {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(255, 255, 255) transparent transparent;
+  }
+  .card {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  .cardPosition-left .card::before {
+    left: 47.4%;
+    top: -10px;
+    border: medium solid rgb(255, 255, 255);
+    border-width: 0 10px 10px 10px !important;
+    border-color: transparent transparent rgb(0, 0, 0) transparent !important;
+  }
+  .cardPosition-right .card::before {
+    left: 47.4%;
+    top: -10px;
+    border: medium solid rgb(255, 255, 255);
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+  }
+  .right {
+    margin-left: 0;
+  }
+  .numberBox {
+    position: relative !important;
+    margin: 1rem auto !important;
+  }
+  .numberBox h1 {
+    padding-top: 15px !important;
+  }
 }

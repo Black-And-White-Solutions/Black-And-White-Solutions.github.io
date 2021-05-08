@@ -1,21 +1,19 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.jsx';
-import Presentation from './components/Presentation.jsx';
+import NavigationBar from './components/NavigationBar';
+import LandingPage from './components/LandingPage';
 import Services from './components/Services.jsx';
-import Process from './components/Process';
-import Team from './components/Team';
-import Form from './components/Form.jsx';
+import AboutTimelinePage from './components/AboutTimelinePage';
+import AboutTeamPage from './components/AboutTeamPage';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Presentation />
+      <NavigationBar />
+      <LandingPage />
       <Services />
-      <Process />
-      <Team />
-      <Form />
+      <AboutTimelinePage />
+      <AboutTeamPage />
     </div>
   );
 }

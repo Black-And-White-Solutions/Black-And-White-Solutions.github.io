@@ -8,6 +8,7 @@
 }
 
 .navbar-brand img {
+  cursor: pointer;
   width: 4.375rem;
 }
 
@@ -22,8 +23,13 @@
 }
 
 .nav-link:hover {
+  cursor: pointer;
   color: rgb(100, 100, 100) !important;
   transition: 0.3s;
+}
+
+.active {
+  color: rgb(100, 100, 100) !important;
 }
 
 .navbar-light .navbar-toggler-icon {

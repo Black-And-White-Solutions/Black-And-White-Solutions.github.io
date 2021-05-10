@@ -6,24 +6,14 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-.black {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
-.white {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
-
 .left {
   margin-right: 50px;
-  padding-left: 5px;
+  padding-left: 1rem;
 }
 
 .right {
   margin-left: 50px;
-  padding-right: 5px;
+  padding-right: 1rem;
 }
 
 .numberBox {
@@ -62,17 +52,6 @@
 .cardPosition-right .numberBox {
   left: 0;
   margin-left: -2.5rem;
-}
-
-.card span {
-  color: rgb(161, 161, 161);
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-.card p {
-  line-height: 1.6;
-  padding-top: 5px;
 }
 
 .cardPosition-left .card {

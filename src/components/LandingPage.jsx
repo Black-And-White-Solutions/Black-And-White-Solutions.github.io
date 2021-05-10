@@ -10,7 +10,9 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className={ColorChange ? 'section ColorChange' : 'section'}>
+      <div
+        className={ColorChange ? 'section ColorChange' : 'section'}
+        id="landingPage">
         <div className="container-fluid presentation">
           <div className="row pt-2">
             <div className=" col-md-7 col-xl-7">

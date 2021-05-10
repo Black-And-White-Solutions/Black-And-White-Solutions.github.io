@@ -8,7 +8,7 @@ import personCuatro from '../img/personCuatro.png';
 const AboutTeamPage = () => {
   return (
     <>
-      <div className="team-boxed">
+      <div className="team-boxed" id="aboutTeamPage">
         <div className="container">
           <div className="intro">
             <header className="section-header pt-5">

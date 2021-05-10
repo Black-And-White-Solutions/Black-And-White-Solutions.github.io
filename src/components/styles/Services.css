@@ -15,35 +15,14 @@
   margin-bottom: 50px;
 }
 
-h3 {
-  font-family: 'Rufina', sans-serif;
-  font-size: 28px;
-}
-
 .serviceCardBlack {
   margin: 10px;
   padding: 20px;
   border-radius: 5px;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
 }
 
 .serviceCardWhite {
   margin: 10px;
   padding: 20px;
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
-
-.cardTitleWhite {
-  color: rgb(255, 255, 255);
-}
-
-.cardTitleBlack {
-  color: rgb(0, 0, 0);
-}
-
-.icon-services {
-  font-size: 30px;
 }

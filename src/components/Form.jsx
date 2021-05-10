@@ -9,8 +9,8 @@ const Form = () => {
   };
 
   return (
-    <div className="container-fluid bg">
-      <div className="container mainCard">
+    <div className="container-fluid align-items-center bg">
+      <div className="card mainCard">
         <div className="row align-items-center">
           <img
             className="col-2 mt-2 ms-2 contactIcon"
@@ -22,7 +22,7 @@ const Form = () => {
           </header>
         </div>
         <div className="row mt-3">
-          <div className="col me-3 formText">
+          <div className="col-lg me-3 formText">
             <p className="lh-1 formBigText">
               Queremos proveer a cada cliente una experiencia unica
             </p>
@@ -42,15 +42,15 @@ const Form = () => {
               su proyecto soñado.
             </p>
           </div>
-          <div className="col align-items-center me-3 formMain">
-            <form id="form" onSubmit={handleSubmit} className="form">
-              <div className="col mb-4 form-group">
+          <div className="col-lg me-3 formMain">
+            <form id="contactForm" onSubmit={handleSubmit} className="form">
+              <div className="col mb-4 align-items-center form-group">
                 <input
                   type="text"
                   name="name"
                   id="name"
                   placeHolder="Nombre"
-                  className="form-control font textBox"
+                  className="form-control formBox"
                 />
               </div>
               <div className="col mb-4 form-group">
@@ -59,7 +59,7 @@ const Form = () => {
                   name="objective"
                   id="objective"
                   placeholder="Objetivo del proyecto"
-                  className="form-control font textBox"
+                  className="form-control formBox"
                 />
               </div>
               <div className="col mb-4 form-group">
@@ -68,7 +68,7 @@ const Form = () => {
                   name="email"
                   id="email"
                   placeholder="E-mail"
-                  className="form-control font textBox"
+                  className="form-control formBox"
                 />
               </div>
               <div className="col mb-4 form-group">
@@ -77,14 +77,17 @@ const Form = () => {
                   name="telephone"
                   id="telephone"
                   placeholder="Teléfono"
-                  className="form-control font textBox"
+                  className="form-control formBox"
                 />
               </div>
             </form>
           </div>
         </div>
       </div>
-      <button type="submit" className="font bold submitButton">
+      <button
+        type="submit"
+        form="contactForm"
+        className="btn btn-primary formButton">
         Enviar
       </button>
     </div>

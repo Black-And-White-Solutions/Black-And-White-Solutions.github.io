@@ -6,6 +6,8 @@ body {
 	"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", 
 	"Droid Sans", "Helvetica Neue";
   color: rgb(0, 0, 0);
+	font-style: normal;
+	font-weight: normal;
 	word-wrap: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -6,7 +6,7 @@ import './styles/ServicesCard.css';
 const ServicesCard = ({ delay, iconCSS, cardColor, title, content }) => {
   return (
     <div
-      className="col-sm-7 col-md-6"
+      className="col-sm-12 col-md-6"
       data-aos="fade-up"
       data-aos-delay={delay}>
       <div className={`serviceCard ${cardColor}`}>

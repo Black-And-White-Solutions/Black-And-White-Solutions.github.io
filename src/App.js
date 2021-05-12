@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
 import NavigationBar from './components/NavigationBar';
-import Layout from './components/Layout';
+import LandingPage from './components/LandingPage';
+import Services from './components/Services';
+import AboutTimelinePage from './components/AboutTimelinePage';
+import AboutTeamPage from './components/AboutTeamPage';
 
 function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <Layout />
+      <LandingPage id="landingPage" />
+      <Services id="services" />
+      <AboutTimelinePage id="aboutTimelinePage" />
+      <AboutTeamPage id="aboutTeamPage" />
     </div>
   );
 }

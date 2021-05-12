@@ -18,7 +18,7 @@ const TimelineCard = ({
       data-aos="fade-up"
       data-aos-delay="200">
       <div className={`numberBox ${invertColor}`}>
-        <h1 className="text-center pt-2">{number}</h1>
+        <h1 className="text-center">{number}</h1>
       </div>
       <div className={`card ${cardColor} ${direction}`}>
         <CardContent

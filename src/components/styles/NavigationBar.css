@@ -37,7 +37,7 @@
 }
 
 .left-line {
-  border-left: rgb(255, 255, 255) 2.6px solid;
+  border-left: rgb(255, 255, 255) 0.163rem solid;
 }
 
 @media screen and (max-width: 992px) {

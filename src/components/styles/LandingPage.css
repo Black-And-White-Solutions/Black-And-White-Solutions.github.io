@@ -24,11 +24,10 @@
 
 .col-xl-7 h1 {
   font-family: 'Rufina', sans-serif;
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding: 1vmin 5vmin;
   text-align: start;
   font-size: 8.5vmin;
-  font-family: Rufina;
   font-style: normal;
   font-weight: lighter;
 }
@@ -52,7 +51,7 @@
 .col-xl-7 .btn:hover {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  border: 2px solid white;
+  border: 0.125rem solid rgb(255, 255, 255);
 }
 
 .ColorChange .container-fluid {
@@ -76,5 +75,5 @@
 .ColorChange .btn:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
+  border: 0.125rem solid rgb(0, 0, 0);
 }

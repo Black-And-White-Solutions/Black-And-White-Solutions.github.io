@@ -8,13 +8,6 @@
   font-family: 'Rufina', sans-serif;
 }
 
-.section-header h2 {
-  font-weight: bold;
-  color: inherit;
-  font-family: 'Rufina', sans-serif;
-  color: rgb(255, 255, 255);
-}
-
 @media (max-width: 767px) {
   .team-boxed h2 {
     font-size: 24px;

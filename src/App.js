@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from './components/Layout';
 import LandingPage from './components/LandingPage';
-import AboutServicesPage from './components/Services';
+import AboutServicesPage from './components/AboutServicesPage';
 import AboutTimelinePage from './components/AboutTimelinePage';
-import AboutTeamPage from './components/Team';
+import AboutTeamPage from './components/AboutTeamPage';
 import ContactPage from './components/ContactPage';
 import './App.css';
 

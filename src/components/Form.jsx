@@ -5,7 +5,7 @@ import contactCard from '../img/contactCard.png';
 const Form = () => {
   const handleSubmit = e => {
     e.preventDefault();
-    alert('Button pressed');
+    alert('YOur message has been sent');
   };
 
   return (
@@ -43,13 +43,19 @@ const Form = () => {
             </p>
           </div>
           <div className="col-lg me-3 formMain">
-            <form id="contactForm" onSubmit={handleSubmit} className="form">
+            <form
+              id="contactForm"
+              action="mailto:blacknwhitesolutions.dev@gmail.com"
+              method="get"
+              encType="text/plain"
+              onSubmit={handleSubmit}
+              className="form">
               <div className="col mb-4 align-items-center form-group">
                 <input
                   type="text"
                   name="name"
                   id="name"
-                  placeHolder="Nombre"
+                  placeholder="Nombre"
                   className="form-control formBox"
                 />
               </div>

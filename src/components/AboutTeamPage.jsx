@@ -1,13 +1,13 @@
 import React from 'react';
 import TeamCard from './TeamCard';
 import listOfTeam from '../data/listOfTeam.json';
-import './styles/Team.css';
+import './styles/AboutTeamPage.css';
 import personUno from '../img/personUno.png';
 import personDos from '../img/personDos.png';
 import personTres from '../img/personTres.png';
 import personCuatro from '../img/personCuatro.png';
 
-const Team = () => {
+const AboutTeamPage = () => {
   const pictures = [personUno, personDos, personTres, personCuatro];
   const teamCards = [];
   listOfTeam.forEach((item, index) => {
@@ -38,4 +38,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default AboutTeamPage;

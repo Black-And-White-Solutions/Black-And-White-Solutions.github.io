@@ -1,9 +1,9 @@
 import React from 'react';
 import SocialBar from './SocialBar';
 import urls from '../data/listOfFooter.json';
-import './styles/Footer.css';
+import './styles/FooterBar.css';
 
-const Footer = () => {
+const FooterBar = () => {
   return (
     <div className="container-fluid footerBar">
       <div className="row">
@@ -22,4 +22,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterBar;

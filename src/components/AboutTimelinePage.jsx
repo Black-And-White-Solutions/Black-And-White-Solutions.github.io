@@ -1,9 +1,9 @@
 import React from 'react';
 import TimelineCard from './TimelineCard';
-import './styles/Process.css';
+import './styles/AboutTimelinePage.css';
 import listOfTimeline from '../data/listOfTimeline.json';
 
-const Proceso = () => {
+const AboutTimelinePage = () => {
   const timelineCards = [];
   listOfTimeline.forEach((item, index) => {
     const index_is_even = index % 2 == 0;
@@ -29,4 +29,4 @@ const Proceso = () => {
   );
 };
 
-export default Proceso;
+export default AboutTimelinePage;

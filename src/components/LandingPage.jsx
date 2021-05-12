@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './styles/Presentation.css';
+import './styles/LandingPage.css';
 import phoneShowcase from '../img/phoneShowcase.png';
 
-const Presentation = () => {
+const LandingPage = () => {
   const [colorChange, setColorChange] = useState(false);
   window.addEventListener('scroll', () => {
     setColorChange(window.scrollY > 0);
@@ -34,4 +34,4 @@ const Presentation = () => {
   );
 };
 
-export default Presentation;
+export default LandingPage;

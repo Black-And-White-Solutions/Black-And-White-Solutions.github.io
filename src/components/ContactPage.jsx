@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles/Form.css';
+import './styles/ContactPage.css';
 import contactCard from '../img/contactCard.png';
 
-const Form = () => {
+const ContactPage = () => {
   const handleSubmit = e => {
     e.preventDefault();
     alert('YOur message has been sent');
@@ -100,4 +100,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default ContactPage;

@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../img/logo.png';
-import './styles/Navbar.css';
+import './styles/NavigationBar.css';
 
-const Navbar = () => {
+const NavigationBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
@@ -54,4 +54,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavigationBar;

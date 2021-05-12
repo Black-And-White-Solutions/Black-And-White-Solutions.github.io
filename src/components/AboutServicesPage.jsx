@@ -1,9 +1,9 @@
 import React from 'react';
 import ServicesCard from './ServicesCard';
-import './styles/Services.css';
+import './styles/AboutServicesPage.css';
 import listOfServices from '../data/listOfServices.json';
 
-const Services = () => {
+const AboutServicesPage = () => {
   const servicesCards = [];
   listOfServices.forEach((item, index) => {
     const index_is_even = index % 3 == 0;
@@ -30,4 +30,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default AboutServicesPage;

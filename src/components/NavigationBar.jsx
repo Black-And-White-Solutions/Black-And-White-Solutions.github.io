@@ -7,9 +7,7 @@ import navigationLinks from '../data/listOfNavigation.json';
 const NavigationBar = () => {
   const barLinks = [];
   navigationLinks.forEach((item, index) => {
-    if (index) {
-      barLinks.push(<span className="line left-line"></span>);
-    }
+    index ? barLinks.push(<span className="line left-line"></span>) : null;
     barLinks.push(
       <li className="nav-item">
         <Link

@@ -4,10 +4,10 @@ import './styles/AboutTimelinePage.css';
 import listOfTimeline from '../data/listOfTimeline.json';
 
 const AboutTimelinePage = () => {
-  const TimelineCards = [];
+  const timelineCards = [];
   listOfTimeline.forEach((item, index) => {
     const index_is_even = index % 2 == 0;
-    TimelineCards.push(
+    timelineCards.push(
       <TimelineCard
         cardColor={index_is_even ? 'black' : 'white'}
         content={item.content}
@@ -24,7 +24,7 @@ const AboutTimelinePage = () => {
       <header className="section-header pt-5">
         <h2>Proceso</h2>
       </header>
-      <div className="container timeline mb-5">{TimelineCards}</div>
+      <div className="container timeline mb-5">{timelineCards}</div>
     </div>
   );
 };

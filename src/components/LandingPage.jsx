@@ -15,7 +15,7 @@ const LandingPage = () => {
         id="landingPage">
         <div className="container-fluid presentation">
           <div className="row pt-2">
-            <div className=" col-md-7 col-xl-7">
+            <div className="col-md-7 col-xl-7">
               <h1>Confíanos tus ideas y nosotros desarrollamos la solución</h1>
               <p>
                 Black & White Solutions tiene todas las herramientas que
@@ -27,7 +27,7 @@ const LandingPage = () => {
               </button>
             </div>
             <div className=" col-md-5 col-xl-5 pt-5">
-              <img src={phone_showcase} alt="" />
+              <img src={phone_showcase} alt="Phone" />
             </div>
           </div>
         </div>

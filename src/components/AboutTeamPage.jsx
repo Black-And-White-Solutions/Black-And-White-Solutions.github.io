@@ -8,7 +8,14 @@ import personTres from '../img/personTres.png';
 import personCuatro from '../img/personCuatro.png';
 
 const AboutTeamPage = () => {
-  const pictures = [personUno, personDos, personTres, personCuatro];
+  const pictures = [
+    personUno,
+    personDos,
+    personUno,
+    personDos,
+    personTres,
+    personCuatro,
+  ];
   const teamCards = [];
   listOfTeam.forEach((item, index) => {
     teamCards.push(

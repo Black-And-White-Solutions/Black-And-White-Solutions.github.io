@@ -46,52 +46,69 @@
 
 @media screen and (max-width: 767px){	
 	.teamTitleSpace{
-		height: 45px;
-		width: auto;
-	} 
+		height: 2.5rem;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
 	.picture{
-		width: 80px;
+		width: 10rem;
 	}
-
 	.teamName{
-		font-size: 20px;
+		font-size: 2rem;
 	}
-
 	.teamTitle{
-		font-size: 9px;
+		font-size: 0.75rem;
 	}
-
 	.teamDescriptionSpace{
-		height: 640px;
+		height: 13rem;
 	}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px){
+	.picture{
+		width: 10rem;
+	}
+	.teamName{
+		font-size: 2rem;
+	}
+	.teamTitle{
+		font-size: 1rem;
+	}
+	.teamDescription{
+		font-size: 1.25rem
+	}
 	.teamDescriptionSpace{
-		height: 384px;
+		height: 16rem;
 	}
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1399px){
+@media screen and (min-width: 1200px) and (max-width: 1399px){	
+	.picture{
+		width: 15rem;
+	}
 	.teamNameSpace{
-		margin-bottom: 12px;
-		height: 55px;
+		margin-bottom: 0.5rem;
+		height: 3rem;
+	}
+	.teamTitle{
+		font-size: 1rem;
+	}
+	.teamDescription{
+		font-size: 1.25rem;
 	}
 	.teamDescriptionSpace{
-		height: 256px;
+		height: 20rem;
 	}
 }
 
 @media screen and (min-width: 1400px){
 	.teamNameSpace{
 		margin-bottom: 0px;
-		height: 40px;
+		height: 3rem;
 	}
 	.teamTitleSpace{
 		margin-bottom: 0px;
-		height: 40px;
+		height: 3rem;
 	}
 }

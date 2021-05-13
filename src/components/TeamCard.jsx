@@ -13,7 +13,7 @@ const TeamCard = ({
   urlGithub,
 }) => {
   return (
-    <div className="col-md-3 col-lg-3">
+    <div className="col-md-6 col-xl-4">
       <div className="card teamCard">
         <div className="textCenter teamNameSpace">
           <h3 className="teamFont teamName">{name}</h3>

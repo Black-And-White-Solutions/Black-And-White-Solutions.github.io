@@ -1,14 +1,14 @@
 import React from 'react';
-import './styles/Team.css';
+import './styles/AboutTeamPage.css';
 import personUno from '../img/personUno.png';
 import personDos from '../img/personDos.png';
 import personTres from '../img/personTres.png';
 import personCuatro from '../img/personCuatro.png';
 
-const Team = () => {
+const AboutTeamPage = () => {
   return (
     <>
-      <div className="team-boxed">
+      <div className="team-boxed" id="aboutTeamPage">
         <div className="container">
           <div className="intro">
             <header className="section-header pt-5">
@@ -119,4 +119,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default AboutTeamPage;

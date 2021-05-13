@@ -1,9 +1,9 @@
 import React from 'react';
 import TimelineCard from './TimelineCard';
-import './styles/Process.css';
+import './styles/AboutTimelinePage.css';
 import listOfTimeline from '../data/listOfTimeline.json';
 
-const Proceso = () => {
+const AboutTimelinePage = () => {
   const timelineCards = [];
   listOfTimeline.forEach((item, index) => {
     const index_is_even = index % 2 == 0;
@@ -20,7 +20,7 @@ const Proceso = () => {
     );
   });
   return (
-    <div className="container-fluid About">
+    <div className="container-fluid About" id="aboutTimelinePage">
       <header className="section-header pt-5">
         <h2>Proceso</h2>
       </header>
@@ -29,4 +29,4 @@ const Proceso = () => {
   );
 };
 
-export default Proceso;
+export default AboutTimelinePage;

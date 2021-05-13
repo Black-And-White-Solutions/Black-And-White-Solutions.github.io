@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles/Form.css';
+import './styles/ContactPage.css';
 import contactCard from '../img/contactCard.png';
 
-const Form = () => {
+const ContactPage = () => {
   const handleSubmit = e => {
     e.preventDefault();
     alert('Button pressed');
@@ -91,8 +91,4 @@ const Form = () => {
   );
 };
 
-Form.propTypes = {
-  formId: PropTypes.String,
-};
-
-export default Form;
+export default ContactPage;

@@ -1,38 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Rufina&display=swap");
 .navbar {
   background-color: rgb(0, 0, 0);
   padding: 0;
 }
 
 .navbar-brand {
-  padding: 0;
+  padding: 0 1.8%;
 }
 
 .navbar-brand img {
-  width: 65px;
+  cursor: pointer;
+  width: 4.375rem;
 }
 
 .nav-item {
-  margin: 0 27px;
+  margin: 0 2rem;
 }
 
 .nav-link {
   color: rgb(255, 255, 255) !important;
-  font-size: 15px;
-  font-family: "Rufina", sans-serif;
 }
 
 .nav-link:hover {
+  cursor: pointer;
   color: rgb(100, 100, 100) !important;
-  transition: 0.3s;
+  transition: 0.2s;
+}
+
+.active {
+  color: rgb(100, 100, 100) !important;
 }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.line {
-  border-left: rgb(255, 255, 255) 2.6px solid;
+.left-line {
+  border-left: rgb(255, 255, 255) 0.163rem solid;
 }
 
 @media screen and (max-width: 992px) {

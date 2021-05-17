@@ -20,7 +20,7 @@ const AboutTimelinePage = () => {
     );
   });
   return (
-    <div className="container-fluid About">
+    <div className="container-fluid About" id="aboutTimelinePage">
       <header className="section-header pt-5">
         <h2>Proceso</h2>
       </header>

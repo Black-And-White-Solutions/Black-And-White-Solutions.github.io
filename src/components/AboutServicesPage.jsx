@@ -19,7 +19,10 @@ const AboutServicesPage = () => {
     );
   });
   return (
-    <div className="container-fluid services" data-aos="fade-up">
+    <div
+      className="container-fluid services"
+      data-aos="fade-up"
+      id="aboutServicesPage">
       <header className="section-header pt-5">
         <h2>Servicios</h2>
       </header>

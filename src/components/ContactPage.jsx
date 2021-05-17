@@ -5,7 +5,7 @@ import contactCard from '../img/contactCard.png';
 const ContactPage = () => {
   const handleSubmit = e => {
     e.preventDefault();
-    alert('YOur message has been sent');
+    alert('Your message has been sent');
   };
 
   return (

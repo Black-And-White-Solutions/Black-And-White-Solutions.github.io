@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './styles/LandingPage.css';
-import phone_showcase from '../img/phoneShowcase.png';
+import phoneShowcase from '../img/phoneShowcase.png';
 
 const LandingPage = () => {
-  const [ColorChange, setColorChange] = useState(false);
+  const [colorChange, setColorChange] = useState(false);
   window.addEventListener('scroll', () => {
     setColorChange(window.scrollY > 0);
   });
@@ -11,7 +11,7 @@ const LandingPage = () => {
   return (
     <>
       <div
-        className={ColorChange ? 'section ColorChange' : 'section'}
+        className={colorChange ? 'section ColorChange' : 'section'}
         id="landingPage">
         <div className="container-fluid presentation">
           <div className="row pt-2">
@@ -27,7 +27,7 @@ const LandingPage = () => {
               </button>
             </div>
             <div className=" col-md-5 col-xl-5 pt-5">
-              <img src={phone_showcase} alt="Phone" />
+              <img src={phoneShowcase} alt="Phone" />
             </div>
           </div>
         </div>

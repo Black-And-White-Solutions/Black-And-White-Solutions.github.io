@@ -1,28 +1,24 @@
+.formMain{
+	align-self: center;
+}
+
 .formTitle {
-  font-family: Rufina;
-  font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 3rem;
   color: rgba(255, 255, 255, 1);
   text-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 .formText {
-  font-family: Rufina;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 1.25rem;
+  line-height: 1.25rem!important;
   color: rgba(255, 255, 255, 1);
   text-align: justify;
 }
 
 .formBigText {
-  font-family: Rufina;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -32,48 +28,80 @@
 }
 
 .mainCard {
-  position: relative;
-  top: 15vh;
-  height: 56vh;
-  width: 80vw;
+	top: 8rem;
+	margin: 2rem 8rem;
   background: rgba(0, 0, 0, 1);
   box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
-.font {
-  font-family: Rufina;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
-}
-
-.textBox {
-  height: 40px;
+.formBox {
+  height: 2.5rem;
   background: rgba(217, 217, 218, 1);
   display: flex;
   align-items: center;
   text-align: center;
   color: rgba(37, 37, 38, 1);
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .bg {
-  height: 100vh;
+  height: 55rem;
   background-image: url('../../img/contactViewBg.jpg');
   background-size: cover;
   background-position: center;
   background-color: rgba(255, 255, 255, 1);
 }
 
-.buttonForm {
+.formButton {
+	height: 4rem;
+	width: 16rem;
+	margin-top: 10rem;
   background: rgba(0, 0, 0, 1);
   box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  font-family: Rufina;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  align-items: center;
   text-align: center;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){	
+	.formTitle{
+		font-size: 1.75rem;
+	}
+	.formBigText{
+		font-size: 1.25rem;
+		line-height: 1.5rem;
+	}
+	.formText{
+		font-size: 0.75rem;
+	}
+	.formBox{
+		height: 1.5rem;
+		font-size: 1rem;
+	}
+	.bg{
+		height: 65rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.formTitle{
+		font-size: 2.0rem;
+	}
+	.formBigText{
+		font-size: 1.5rem;
+		line-height: 2.0rem;
+	}
+	.formText{
+		font-size: 1rem;
+	}
+	.formBox{
+		height: 1.75rem;
+		font-size: 1.25rem;
+	}
+	.bg{
+		height: 62rem;
+	}
 }

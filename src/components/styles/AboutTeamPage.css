@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
-
 .team-boxed {
+	font-size: 2.5rem;
   color: rgb(49, 52, 55);
   background-color: rgb(0, 0, 0);
 }
@@ -8,13 +7,6 @@
 .team-boxed p {
   color: rgb(0, 0, 0);
   font-family: 'Rufina', sans-serif;
-}
-
-.section-header h2 {
-  font-weight: bold;
-  color: inherit;
-  font-family: 'Rufina', sans-serif;
-  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 767px) {
@@ -28,9 +20,6 @@
   max-width: 31.25rem;
   font-size: 1rem;
   margin: 0 auto;
-}
-
-.team-boxed .intro p {
   margin-bottom: 0;
   font-family: 'Rufina', sans-serif;
 }
@@ -94,4 +83,20 @@
 
 .team-boxed {
   padding-bottom: 50px;
+}
+
+@media screen and (max-width: 767px){	
+  .team-boxed h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+	.team-boxed{
+		font-size: 2rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.team-boxed{
+		font-size: 2.25rem;
+	}
 }

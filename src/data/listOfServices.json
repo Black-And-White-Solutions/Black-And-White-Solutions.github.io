@@ -1,28 +1,28 @@
 [
   {
-    "content": "Construye tu producto con un equipo dedicado \n de desarrolladores que estarán disponibles para ti \n a lo largo de todo el ciclo de vida del proyecto.",
-    "delay": 200,
+    "content": "Construye tu producto con un equipo dedicado de desarrolladores que estarán disponibles para ti a lo largo de todo el ciclo de vida del proyecto.",
+    "delay": 100,
     "iconCSS": "fas fa-users",
     "title": "Equipos dedicados"
   },
 
   {
-    "content": "¿Tienes alguna idea y te gustaría evaluar su \n víabilidad? Podemos desarrollar un producto minimo \n viable que podras usar para plasmar tus ideas en la realidad.",
-    "delay": 300,
+    "content": "¿Tienes alguna idea y te gustaría evaluar su víabilidad? Podemos desarrollar un producto minimo viable que podras usar para plasmar tus ideas en la realidad.",
+    "delay": 200,
     "iconCSS": "fas fa-tools",
     "title": "Desarrollo de MVPs"
   },
 
   {
-    "content": "¿Quieres darle una imágen a tu proyecto? Tenemos \n todo un  equipo preparado para entender tu negocio \n y crear un sitio web atractivo y amigable para tus clientes.",
-    "delay": 400,
+    "content": "¿Quieres darle una imágen a tu proyecto? Tenemos todo un equipo preparado para entender tu negocio y crear un sitio web atractivo y amigable para tus clientes.",
+    "delay": 300,
     "iconCSS": "fas fa-globe",
     "title": "Desarrollo de Apps"
   },
 
   {
-    "content": "Nuestros desarrolladores cuentan con conocimeintos \n de desarrollo Backend, con lo que podemos crear \n sistemas vanguardistas que alimenten y ayuden a optimizar tu negocio.",
-    "delay": 500,
+    "content": "Nuestros desarrolladores cuentan con conocimeintos de desarrollo Backend, con lo que podemos crear sistemas vanguardistas que alimenten y ayuden a optimizar tu negocio.",
+    "delay": 400,
     "iconCSS": "fas fa-cogs",
     "title": "Desarrollo de Servicios"
   }

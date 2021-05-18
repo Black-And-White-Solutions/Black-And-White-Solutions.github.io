@@ -13,7 +13,7 @@ const ContactPage = () => {
       <div className="card mainCard">
         <div className="row align-items-center">
           <img
-            className="col-2 mt-2 ms-2 contactIcon"
+            className="col-sm-2 mt-2 ms-2 contactIcon"
             src={contactCard}
             alt="contactUs"
           />

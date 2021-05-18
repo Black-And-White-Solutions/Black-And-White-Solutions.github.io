@@ -9,7 +9,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="container-fluid align-items-center bg">
+    <div className="container-fluid align-items-center bg" id="contactPage">
       <div className="card mainCard">
         <div className="row align-items-center">
           <img

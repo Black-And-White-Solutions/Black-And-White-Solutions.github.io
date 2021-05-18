@@ -8,8 +8,9 @@ const NavigationBar = () => {
   const barLinks = [];
   navigationLinks.forEach((item, index) => {
     index ? barLinks.push(<span className="line left-line"></span>) : null;
+
     barLinks.push(
-      <li className="nav-item">
+      <li className="nav-item" key={index.toString()}>
         <Link
           activeClass="active"
           className="nav-link"

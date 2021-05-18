@@ -7,7 +7,7 @@
 }
 
 .row .col-xl-7 {
-  padding: 10vmin 1vmin 10%;
+  padding: 10vmin 1vmin 13%;
 }
 
 .row .col-xl-5 img {
@@ -34,7 +34,7 @@
 .col-xl-7 .btn {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border: none;
+  border: 0.125rem solid rgb(0, 0, 0);
   margin-top: 2rem;
   padding: 2vmin 5vmin;
 }
@@ -61,6 +61,7 @@
 .ColorChange .btn {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  border: 0.125rem solid rgb(255, 255, 255);
 }
 
 .ColorChange .btn:hover {

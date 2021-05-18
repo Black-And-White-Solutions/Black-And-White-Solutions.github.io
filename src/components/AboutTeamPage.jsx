@@ -20,7 +20,6 @@ const AboutTeamPage = () => {
   listOfTeam.forEach((item, index) => {
     teamCards.push(
       <TeamCard
-        key={index}
         content={item.content}
         image={pictures[index]}
         name={item.name}
@@ -32,7 +31,7 @@ const AboutTeamPage = () => {
     );
   });
   return (
-    <div className="team-boxed">
+    <div className="team-boxed" id="aboutTeamPage">
       <div className="container">
         <div className="intro">
           <header className="section-header pt-5">

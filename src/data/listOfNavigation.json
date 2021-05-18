@@ -1,6 +1,6 @@
 [
   { "name": "Inicio", "to": "landingPage", "offset": -100 },
-  { "name": "Servicios", "to": "services", "offset": -30 },
+  { "name": "Servicios", "to": "aboutServicesPage", "offset": -30 },
   { "name": "Proceso", "to": "aboutTimelinePage", "offset": -10 },
   { "name": "Nosotros", "to": "aboutTeamPage", "offset": 0 },
   { "name": "Contacto", "to": "contactPage", "offset": 0 }

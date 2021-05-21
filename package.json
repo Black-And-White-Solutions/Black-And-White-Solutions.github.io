@@ -62,6 +62,7 @@
     ]
   },
   "devDependencies": {
+    "emailjs-com": "^2.6.4",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-config-standard": "^16.0.2",

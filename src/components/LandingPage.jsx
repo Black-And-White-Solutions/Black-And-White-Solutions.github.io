@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import './styles/LandingPage.css';
 import phoneShowcase from '../img/phoneShowcase.png';
+import navigationLinks from '../data/listOfNavigation.json';
 
 const LandingPage = () => {
   const [colorChange, setColorChange] = useState(false);
@@ -23,7 +25,16 @@ const LandingPage = () => {
                 a tu emprendimiento
               </p>
               <button type="button" className="btn btn-primary">
-                Contactanos
+                <Link
+                  activeClass="active"
+                  className="contactLink"
+                  to={navigationLinks[navigationLinks.length - 1].to}
+                  spy={true}
+                  smooth={true}
+                  offset={navigationLinks[navigationLinks.length - 1].offset}
+                  duration={50}>
+                  Contactanos
+                </Link>
               </button>
             </div>
             <div className=" col-md-5 col-xl-5 pt-5">

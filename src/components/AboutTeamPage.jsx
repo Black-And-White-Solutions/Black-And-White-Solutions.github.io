@@ -20,6 +20,7 @@ const AboutTeamPage = () => {
   listOfTeam.forEach((item, index) => {
     teamCards.push(
       <TeamCard
+        key={index.toString()}
         content={item.content}
         image={pictures[index]}
         name={item.name}

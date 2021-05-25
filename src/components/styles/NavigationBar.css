@@ -35,13 +35,18 @@
 }
 
 .left-line {
-  border-left: rgb(255, 255, 255) 0.163rem solid;
+  border-left: rgb(255, 255, 255) 0.0625rem solid;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .navbar-nav {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    height: 4rem;
   }
 }

@@ -1,15 +1,21 @@
 .navbar {
   background-color: rgb(0, 0, 0);
   padding: 0;
+  height: 4.5rem;
+}
+
+.height-limit {
+  height: inherit;
 }
 
 .navbar-brand {
   padding: 0 1.8%;
+  height: inherit;
 }
 
 .navbar-brand img {
   cursor: pointer;
-  width: 4.375rem;
+  height: inherit;
 }
 
 .nav-item {
@@ -38,14 +44,30 @@
   border-left: rgb(255, 255, 255) 0.0625rem solid;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 575px) {
+  .navbar {
+    height: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .navbar {
+    height: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    height: 3.5rem;
+  }
   .navbar-nav {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
   .navbar {
     height: 4rem;
   }

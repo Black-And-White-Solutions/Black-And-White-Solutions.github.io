@@ -33,7 +33,7 @@ const NavigationBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
-        <div className="container-fluid">
+        <div className="container width-limit height-limit">
           <Link
             className="navbar-brand logo active"
             to="landingPage"

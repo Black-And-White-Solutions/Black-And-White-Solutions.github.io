@@ -11,39 +11,39 @@ const LandingPage = () => {
   });
 
   return (
-    <>
-      <div
-        className={colorChange ? 'section ColorChange' : 'section'}
-        id="landingPage">
-        <div className="container-fluid presentation">
-          <div className="row pt-2">
-            <div className="col-md-7 col-xl-7">
-              <h1>Confíanos tus ideas y nosotros desarrollamos la solución</h1>
-              <p>
-                Black & White Solutions tiene todas las herramientas que
-                necesitarás para realizar tus ideas y darle una nueva dimensión
-                a tu emprendimiento
-              </p>
-              <button type="button" className="btn btn-primary">
-                <Link
-                  activeClass="active"
-                  className="contactLink"
-                  to={navigationLinks[navigationLinks.length - 1].to}
-                  spy={true}
-                  smooth={true}
-                  offset={navigationLinks[navigationLinks.length - 1].offset}
-                  duration={50}>
-                  Contactanos
-                </Link>
-              </button>
-            </div>
-            <div className=" col-md-5 col-xl-5 pt-5">
-              <img src={phoneShowcase} alt="Phone" />
-            </div>
-          </div>
+    <div
+      className={
+        colorChange
+          ? 'container-fluid landing ColorChange'
+          : 'container-fluid landing'
+      }
+      id="landingPage">
+      <div className="row py-3 landingContent width-limit">
+        <div className="col-md col-xl py-2 py-lg-5 landingText app-shadow">
+          <h1>Confíanos tus ideas y nosotros desarrollamos la solución</h1>
+          <p>
+            Black & White Solutions tiene todas las herramientas que necesitarás
+            para realizar tus ideas y darle una nueva dimensión a tu
+            emprendimiento
+          </p>
+          <button type="button" className="btn btn-primary landingButton">
+            <Link
+              activeClass="active"
+              className="buttonLink"
+              to={navigationLinks[navigationLinks.length - 1].to}
+              spy={true}
+              smooth={true}
+              offset={navigationLinks[navigationLinks.length - 1].offset}
+              duration={50}>
+              Contactanos
+            </Link>
+          </button>
+        </div>
+        <div className="col-md col-xl py-5">
+          <img className="landingImage" src={phoneShowcase} alt="Phone" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

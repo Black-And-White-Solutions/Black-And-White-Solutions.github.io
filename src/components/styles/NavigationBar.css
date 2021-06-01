@@ -9,7 +9,7 @@
 }
 
 .navbar-brand {
-  padding: 0 1.8%;
+  padding: 0;
   height: inherit;
 }
 
@@ -46,19 +46,19 @@
 
 @media screen and (max-width: 575px) {
   .navbar {
-    height: 2.5rem;
+    height: 4rem;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .navbar {
-    height: 3rem;
+    height: 4.5rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar {
-    height: 3.5rem;
+    height: 5rem;
   }
   .navbar-nav {
     display: flex;
@@ -69,6 +69,6 @@
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   .navbar {
-    height: 4rem;
+    height: 5rem;
   }
 }

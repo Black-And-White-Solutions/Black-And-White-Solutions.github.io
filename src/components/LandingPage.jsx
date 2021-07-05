@@ -18,7 +18,7 @@ const LandingPage = () => {
           : 'container-fluid landing'
       }
       id="landingPage">
-      <div className="row py-3 landingContent width-limit">
+      <div className="row landingContent width-limit">
         <div className="col-md col-xl py-2 py-lg-5 landingText app-shadow">
           <h1>Confíanos tus ideas y nosotros desarrollamos la solución</h1>
           <p>

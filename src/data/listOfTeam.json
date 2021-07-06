@@ -1,6 +1,7 @@
 [
   {
     "content": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://i.imgur.com/8Q0RoGP.jpg",
     "name": "Albert Williams",
     "title": "CEO",
     "urlGithub": "",
@@ -9,30 +10,16 @@
   },
   {
     "content": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
-    "name": "Albert Williams",
-    "title": "CEO",
-    "urlGithub": "",
-    "urlLinkedIn": "",
-    "urlTwitter": ""
-  },
-  {
-    "content": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
-    "name": "Albert Williams",
-    "title": "CEO",
-    "urlGithub": "",
-    "urlLinkedIn": "",
-    "urlTwitter": ""
-  },
-  {
-    "content": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://i.imgur.com/al0AoS3.jpg",
     "name": "Gabriel Ramos",
-    "title": "Frontend Developer / UX Designer",
+    "title": "Frontend Developer - UI/UX Designer",
     "urlGithub": "",
     "urlLinkedIn": "",
     "urlTwitter": ""
   },
   {
     "content": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://i.imgur.com/OfuMmXB.jpg",
     "name": "Diosmer Vera",
     "title": "Backend Developer",
     "urlGithub": "",
@@ -40,9 +27,28 @@
     "urlTwitter": ""
   },
   {
-    "content": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "content": "Frontend Developer y UX designer, enfocado y listo para nuevos desafíos con muchas ganas de aprender nuevas tecnologías. Entre las tecnologías que manejo se encuentran HTML5, CSS3, JavaScript, Bootstrap, React, y Figma.",
+    "image": "https://i.imgur.com/BH5F80h.jpg",
     "name": "Daniel Martinez",
-    "title": "Frontend Developer / UX Designer",
+    "title": "Frontend Developer",
+    "urlGithub": "",
+    "urlLinkedIn": "",
+    "urlTwitter": ""
+  },
+  {
+    "content": "Estudiante de 3er año en informatica, desarrollador de backend en BW y cofundador de variedades-monica.com, manejo de Java, Python, PHP, JavaScript y de herramientas de la familia Adobe.",
+    "image": "https://i.imgur.com/scBPyEd.jpg",
+    "name": "Agustin Cartaya",
+    "title": "Backend Developer",
+    "urlGithub": "",
+    "urlLinkedIn": "",
+    "urlTwitter": ""
+  },
+  {
+    "content": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://i.imgur.com/5ecsIll.jpg",
+    "name": "Daniela Flores",
+    "title": "UI/UX Designer",
     "urlGithub": "",
     "urlLinkedIn": "",
     "urlTwitter": ""

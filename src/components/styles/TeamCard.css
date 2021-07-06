@@ -69,17 +69,20 @@
 	.picture{
 		width: 10rem;
 	}
+	.teamNameSpace{
+		margin-bottom: 0.5rem;
+	}
 	.teamName{
-		font-size: 2rem;
+		font-size: 1.75rem;
 	}
 	.teamTitle{
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 	.teamDescription{
-		font-size: 1.25rem
+		font-size: 1rem
 	}
 	.teamDescriptionSpace{
-		height: 16rem;
+		height: 10rem;
 	}
 }
 
@@ -89,16 +92,19 @@
 	}
 	.teamNameSpace{
 		margin-bottom: 0.5rem;
-		height: 3rem;
+		height: 2rem;
 	}
 	.teamTitle{
-		font-size: 1rem;
+		font-size: 0.8rem;
+	}
+	.teamTitleSpace{
+		height: 2rem;
 	}
 	.teamDescription{
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	.teamDescriptionSpace{
-		height: 20rem;
+		height: 12rem;
 	}
 }
 

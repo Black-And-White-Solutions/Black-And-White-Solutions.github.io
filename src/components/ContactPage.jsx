@@ -1,15 +1,37 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import './styles/ContactPage.css';
 import contactCard from '../img/contactCard.png';
 
 const ContactPage = () => {
-  const handleSubmit = e => {
+  const sendEmail = e => {
     e.preventDefault();
-    alert('Your message has been sent');
+    console.log(e);
+    emailjs
+      .sendForm(
+        'main_contact_mail',
+        'contact_homepage',
+        e.target,
+        'user_ggIETGBrdyPyMlsHnJfKq',
+      )
+      .then(
+        result => {
+          console.log('SUCCESS!', result.status, result.text);
+          alert(
+            `¡Su información fue enviada exitosamente!\nPronto nos contactaremos con usted.`,
+          );
+        },
+        error => {
+          console.log('FAILED...', error.text);
+          alert(`Algo salio mal, intentelo de nuevo más tarde.`);
+        },
+      );
+
+    e.target.reset();
   };
 
   return (
-    <div className="container-fluid align-items-center bg">
+    <div className="container-fluid align-items-center bg" id="contactPage">
       <div className="card mainCard">
         <div className="row align-items-center">
           <img
@@ -45,15 +67,14 @@ const ContactPage = () => {
           <div className="col-lg me-3 formMain">
             <form
               id="contactForm"
-              action="mailto:blacknwhitesolutions.dev@gmail.com"
               method="get"
               encType="text/plain"
-              onSubmit={handleSubmit}
+              onSubmit={sendEmail}
               className="form">
               <div className="col mb-4 align-items-center form-group">
                 <input
                   type="text"
-                  name="name"
+                  name="contactName"
                   id="name"
                   placeholder="Nombre"
                   className="form-control formBox"
@@ -62,7 +83,7 @@ const ContactPage = () => {
               <div className="col mb-4 form-group">
                 <input
                   type="text"
-                  name="objective"
+                  name="contactObjective"
                   id="objective"
                   placeholder="Objetivo del proyecto"
                   className="form-control formBox"
@@ -71,7 +92,7 @@ const ContactPage = () => {
               <div className="col mb-4 form-group">
                 <input
                   type="email"
-                  name="email"
+                  name="contactEmail"
                   id="email"
                   placeholder="E-mail"
                   className="form-control formBox"
@@ -80,7 +101,7 @@ const ContactPage = () => {
               <div className="col mb-4 form-group">
                 <input
                   type="tel"
-                  name="telephone"
+                  name="contactPhone"
                   id="telephone"
                   placeholder="Teléfono"
                   className="form-control formBox"

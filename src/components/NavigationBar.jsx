@@ -7,9 +7,16 @@ import navigationLinks from '../data/listOfNavigation.json';
 const NavigationBar = () => {
   const barLinks = [];
   navigationLinks.forEach((item, index) => {
-    index ? barLinks.push(<span className="line left-line"></span>) : null;
+    index
+      ? barLinks.push(
+          <span
+            className="line left-line"
+            key={`span${index.toString()}`}></span>,
+        )
+      : null;
+
     barLinks.push(
-      <li className="nav-item">
+      <li className="nav-item" key={`link${index.toString()}`}>
         <Link
           activeClass="active"
           className="nav-link"
@@ -26,7 +33,7 @@ const NavigationBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
-        <div className="container-fluid">
+        <div className="container width-limit height-limit">
           <Link
             className="navbar-brand logo active"
             to="landingPage"

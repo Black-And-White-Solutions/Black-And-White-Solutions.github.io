@@ -23,6 +23,7 @@
 }
 
 .nav-link {
+	background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255) !important;
 }
 
@@ -41,7 +42,7 @@
 }
 
 .left-line {
-  border-left: rgb(255, 255, 255) 0.0625rem solid;
+  border-left: rgb(255, 255, 255) 1px solid;
 }
 
 @media screen and (max-width: 575px) {

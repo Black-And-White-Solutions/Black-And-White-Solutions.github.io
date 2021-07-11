@@ -21,7 +21,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "npx prettier --write .",
     "prepare": "husky install"
   },
   "eslintConfig": {
@@ -29,6 +28,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "lint-staged": {
+    "**/*": "npx prettier --write --ignore-unknown"
   },
   "browserslist": {
     "production": [
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
     "prettier": "^2.3.2"
   }
 }
